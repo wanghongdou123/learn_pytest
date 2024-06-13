@@ -1,0 +1,8 @@
+-
+  name: 编辑标签接口
+  request:
+    method: post
+    url: https://api.weixin.qq.com/cgi-bin/tags/updata?access_token=
+    data: {"tag":{"id":134,"name":"李四"}}
+
+  validate: None

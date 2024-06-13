@@ -1,0 +1,14 @@
+-
+  frature: 模块
+  story: 接口
+  title: 标题
+  request:
+    method: get
+    url: 'https://api.weixin.qq.com/cgi-bin/token'
+    headers: null
+#    params/dara/json/files:
+    params:
+      'grant_type':'client_credential'
+      'appid':'wx6b11b3efd1cdc290'
+      'secret':'106a9c6157c4db5f6029918738f9529d'
+  validate: null
